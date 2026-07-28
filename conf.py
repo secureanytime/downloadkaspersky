@@ -4,10 +4,8 @@ author = 'Admin'
 
 extensions = [ 'sphinx.ext.autodoc',
                'sphinx.ext.napoleon',
-               'sphinx_sitemap',
-]
-html_baseurl = 'https://communities-anytime-downloadkaspersky.readthedocs-hosted.com/en/latest/'
-sitemap_url_scheme = "{lang}{version}{link}"
+              ]
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
