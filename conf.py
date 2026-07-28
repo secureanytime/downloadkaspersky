@@ -17,6 +17,8 @@ html_theme = 'alabaster' # Screenshot wala classic white theme
 html_title = "Download Kaspersky Total Security in your Windows PC"
 html_short_title = "Download Kaspersky Total Security"
 html_static_path = ['_static']
+html_extra_path = ['_static/google5ffeff63dcb91d99.html']
+
 # Meta Tags Configuration
 html_context = {
     'metatags': '''
