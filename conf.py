@@ -16,13 +16,13 @@ html_theme = 'alabaster' # Screenshot wala classic white theme
 
 html_title = "Download Kaspersky Total Security in your Windows PC"
 html_short_title = "Download Kaspersky Total Security"
-
+html_static_path = ['_static']
 # Meta Tags Configuration
 html_context = {
     'metatags': '''
         <meta name="description" content="To download purchased Kaspersky, sign in to your My Kaspersky account, go to Subscriptions, and click Download.">
         <meta name="Download Kaspersky Total Security" content="docs, guide, setup, tutorial">
-     html_static_path = ['_static']
+     
     '''
 }
 
