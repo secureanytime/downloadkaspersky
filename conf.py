@@ -13,16 +13,15 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster' # Screenshot wala classic white theme
 
+html_baseurl = 'https://communities-anytime-downloadkaspersky.readthedocs-hosted.com/en/latest/'
+sitemap_url_scheme = "{link}"
+
 # conf.py
 
 html_title = "Download Kaspersky Total Security in your Windows PC"
 html_short_title = "Download Kaspersky Total Security"
 html_static_path = ['_static']
 html_extra_path = ['_static/google5ffeff63dcb91d99.html'] 
-
-html_baseurl = 'https://communities-anytime-downloadkaspersky.readthedocs-hosted.com/en/latest/'
-
-sitemap_url_scheme = "{link}"
 
 
 # Meta Tags Configuration
