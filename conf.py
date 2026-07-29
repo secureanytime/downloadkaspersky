@@ -4,6 +4,7 @@ author = 'Admin'
 
 extensions = [ 'sphinx.ext.autodoc',
                'sphinx.ext.napoleon',
+               'sphinx_sitemap',
               ]
 
 
@@ -18,6 +19,10 @@ html_title = "Download Kaspersky Total Security in your Windows PC"
 html_short_title = "Download Kaspersky Total Security"
 html_static_path = ['_static']
 html_extra_path = ['_static/google5ffeff63dcb91d99.html'] 
+
+html_baseurl = 'https://communities-anytime-downloadkaspersky.readthedocs-hosted.com/en/latest/'
+
+sitemap_url_scheme = "{link}"
 
 
 # Meta Tags Configuration
