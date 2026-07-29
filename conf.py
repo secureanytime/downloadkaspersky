@@ -23,7 +23,7 @@ html_extra_path = ['_static/google5ffeff63dcb91d99.html']
 # Meta Tags Configuration
 html_context = {
     'metatags': '''
-        <meta name="description" content="To download purchased Kaspersky, sign in to your My Kaspersky account, go to Subscriptions, and click Download.">
+        <meta name="description" content="Kaspersky Total Security protects PCs, Macs, and phones from viruses, ransomware, and online threats, all in one easy multi-device plan.">
         <meta name="Download Kaspersky Total Security" content="docs, guide, setup, tutorial">
      
     '''
